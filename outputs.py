@@ -14,4 +14,4 @@ def output_csv(all_data, keyword, loc):
 	if 'csv' not in os.listdir():
 		os.mkdir('csv')
 	df = pd.DataFrame(all_data)
-	df.to_csv(f'csv/{keyword.replace("+", "-")}' + f'({loc})', index=False)
+	df.to_csv(f'csv/{keyword.replace("+", "-")}' + f'({loc}).csv', index=False)
