@@ -26,7 +26,7 @@ _Installing project requirements_:
 
 To start using scraper simply launch terminal and locate to the root folder.
 
-Example of scraping news for keyword nike in japanase language:
+Example of scraping nike news in japanese:
 
 ![](project_screenshots/google-news-scraper-example.png)
 
