@@ -50,7 +50,7 @@ Command | Expected Input
 
 
 
-### Example of json (US)
+### Example of json 
 ```json
 [
     {
@@ -69,17 +69,19 @@ Command | Expected Input
         "publication_date": "2021-08-18"
     }
 ```
-### Example of json (JA)
 
 
 ### Example of csv
 
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
+### How many results can I expect to get?
+You can expect up to 100 results since that's also the maximum you can get on https://news.google.com.
+Results largely depend on supplied keyword and location.
 
-
-
+### Does this scraper support bulk queries?
+Unfortunately, this scraper doesn't support bulk queries. If you want more scalable approach for scraping latest news from Google, I suggest you checking 
 
 
 
