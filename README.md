@@ -4,7 +4,7 @@
 
 ## Description
 
-Google News Scraper: get latest news from [news.google.com](https://news.google.com) of any region and language to `csv` or `json` formats.
+Google News Scraper: get latest news from [news.google.com](https://news.google.com) of any region and language to `csv` or `json` formats instantly.
 
 ## Requirements
 
@@ -20,12 +20,18 @@ git clone https://github.com/scrapewalrus/google-news-scraper-2021
 ```
 _Installing requirements_:
 
+## Usage
+
 
 
 
 
 ## List of commands
 
+Command | Expected Input
+------------ | -------------
+ | 
+ | 
 
 
 
@@ -44,6 +50,11 @@ _Installing requirements_:
 
 
 ### Example of csv
+
+
+### Frequently Asked Questions
+
+
 
 
 
