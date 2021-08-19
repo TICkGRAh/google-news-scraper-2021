@@ -28,6 +28,8 @@ _Installing project requirements_:
 
 
 
+
+
 ## List of commands
 
 Command | Expected Input
@@ -38,19 +40,8 @@ Command | Expected Input
  `--keyword` | long form of `-k`
  `--location` | long form of `-l`
  `--output` | long form of `-o`
- 
 
-
-
-
-
-
-
-
-
-
-
-### Example of json 
+### Example json output
 ```json
 [
     {
@@ -71,7 +62,7 @@ Command | Expected Input
 ```
 
 
-### Example of csv
+### Example csv output
 
 ![](project_screenshots/csv_example.png)
 
@@ -84,6 +75,3 @@ Results largely depend on supplied keyword and location.
 
 ### Does this scraper support bulk queries?
 Unfortunately, this scraper doesn't support bulk queries. If you want more scalable approach for scraping news from Google, I suggest you checking [Oxylabs Real-Time Crawler](https://oxylabs.io/products/real-time-crawler) or [Google News API by SERPmaster](https://serpmaster.com/products/google-news-api/) services.
-
-
-
