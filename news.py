@@ -34,7 +34,7 @@ def get_news(args):
 
 	keyword = quote_plus(args['keyword'].strip())
 	output = args['output'].strip()
-	loc = quote_plus(args['location'].strip())
+	loc = args['location'].strip()
 	r = f'https://news.google.com/rss/search?q={keyword}&hl={loc}'
 
 	resp = requests.get(r)
