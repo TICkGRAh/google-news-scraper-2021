@@ -4,7 +4,7 @@
 
 ## Description
 
-Google News Scraper: get latest news from [news.google.com](https://news.google.com) of any region and language to `csv` or `json` formats instantly.
+Google News Scraper: get the latest news from [news.google.com](https://news.google.com) of any region and language to `csv` or `json` formats instantly.
 
 ## Requirements
 
@@ -26,22 +26,22 @@ _Installing project requirements_:
 
 To start using scraper simply launch terminal and locate to the root folder.
 
-Example of scraping nike news in japanese:
+Example of scraping Nike news in Japanese:
 
 ![](project_screenshots/google-news-scraper-example.png)
 
-For all the available `ISO 639-1` code representations of locations check [Language Codes](https://github.com/scrapewalrus/google-news-scraper-2021/blob/main/iso-lang-codes.json) file.
+For all the available `ISO 639-1` code representations of locations check the [Language Codes](https://github.com/scrapewalrus/google-news-scraper-2021/blob/main/iso-lang-codes.json) file.
 
 ## List of commands
 
 Command | Expected Input
 ------------ | -------------
- `-k`| keyword of your choice
+ `-k`| a keyword of your choice
  `-l` | `ISO 639-1` code representation of your preferred language
  `-o` | `csv` or `json`
- `--keyword` | long form of `-k`
- `--location` | long form of `-l`
- `--output` | long form of `-o`
+ `--keyword` | a long form of `-k`
+ `--location` | a long form of `-l`
+ `--output` | a long form of `-o`
 
 ### Example json output
 ```json
@@ -72,8 +72,8 @@ Command | Expected Input
 ## Frequently Asked Questions
 
 ### How many results can I expect to get?
-You can expect up to 100 results since that's also the maximum you can get on https://news.google.com.
-Results largely depend on supplied keyword and location.
+You can expect up to 100 results as this is the maximum you can get on https://news.google.com.
+Results largely depend on a supplied keyword and location.
 
 ### Does this scraper support bulk queries?
-Unfortunately, this scraper doesn't support bulk queries. If you want more scalable approach for scraping news from Google, I suggest you checking [Oxylabs Real-Time Crawler](https://oxylabs.io/products/real-time-crawler) or [Google News API by SERPmaster](https://serpmaster.com/products/google-news-api/) services.
+Unfortunately, this scraper doesn't support bulk queries. If you want a more scalable approach for scraping news from Google, I suggest checking [Oxylabs Real-Time Crawler](https://oxylabs.io/products/real-time-crawler) or [Google News API by SERPmaster](https://serpmaster.com/products/google-news-api/) services.
