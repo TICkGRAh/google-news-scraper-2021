@@ -73,7 +73,7 @@ Command | Expected Input
 
 ### Example of csv
 
-[](project_screenshots/csv_example.png)
+![](project_screenshots/csv_example.png)
 
 
 ## Frequently Asked Questions
