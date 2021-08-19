@@ -24,11 +24,11 @@ _Installing project requirements_:
 
 ## Usage
 
+Scraping news for keyword nike in japanase language:
 
+![](project_screenshots/google-news-scraper-example.png)
 
-
-
-
+For all the available `ISO 639-1` code representations of locations check [Language Codes](https://github.com/scrapewalrus/google-news-scraper-2021/blob/main/iso-lang-codes.json)
 
 ## List of commands
 
